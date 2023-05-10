@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "rollup": "^3.21.6",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "devEngines": {
+    "node": "16.x || 18.x || 19.x || 20.x"
+  },
+  "scripts": {
+    "build": "",
+    "lint": "",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": ""
+  },
+  "name": "vue-dnd",
+  "version": "0.0.0",
+  "description": "drag and drop for vue3",
+  "author": "",
+  "license": "ISC"
+}
