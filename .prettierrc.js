@@ -1,24 +1,24 @@
-'use strict';
+"use strict";
 
 module.exports = {
   bracketSpacing: false,
   singleQuote: true,
   jsxBracketSameLine: true,
-  trailingComma: 'es5',
+  trailingComma: "es5",
   printWidth: 80,
-  parser: 'flow',
-  arrowParens: 'avoid',
+  parser: "flow",
+  arrowParens: "avoid",
   overrides: [
     {
       files: [
-        'packages/*/*.js',
+        "packages/*/*.js",
         // Source files
-        'packages/*/src/**/*.js',
-        'packages/shared/**/*.js',
-        'scripts/rollup/shims/**/*.js',
+        "packages/*/src/**/*.js",
+        "packages/shared/**/*.js",
+        "scripts/rollup/shims/**/*.js",
       ],
       options: {
-        trailingComma: 'all',
+        trailingComma: "all",
       },
     },
   ],
